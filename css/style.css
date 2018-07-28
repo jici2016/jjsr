@@ -3,7 +3,7 @@
 body{font-family:Arial, Helvetica, "Microsoft YaHei", "SimSun", sans-serif;background:#f8f8f8;}
 ul, li{list-style:none;}
 a{text-decoration:none; color:#999}
-a:hover{text-decoration:none; color:#4da422;} #4da422
+a:hover{text-decoration:none; color:#4da422;}
 .clr{display:block;clear:both;}
 .hr_100, .hr_50, .hr_40, .hr_35, .hr_30, .hr_25, .hr_20, .hr_15, .hr_12, .hr_10, .hr_8, .hr_7, .hr_5, .hr_3, .hr_1{ clear:both; font-size:1px; line-height:1px; overflow:hidden; }
 .hr_100 { height:100px; }
@@ -33,7 +33,7 @@ a:hover{text-decoration:none; color:#4da422;} #4da422
 .m-navbar .navbar-nav>.active>a:focus{color:#4da422;background:none;}
 .m-navbar .navbar-nav>li>a span{margin-right:5px;}
 .m-navbar .navbar-toggle{margin-top:23px;}
-.tele{float:left;width:200px;line-height:50px;}
+.tele{float:left;width:185px;line-height:50px;}
 .tele a{display:block;}
 .tele p{margin:0;font-size:16px;}
 .logo_tel{float:left;width:20%;margin:0 3% 0% 6%;}
