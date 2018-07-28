@@ -2,7 +2,6 @@
 /* CSS Document */
 body{font-family:Arial, Helvetica, "Microsoft YaHei", "SimSun", sans-serif;background:#f8f8f8;}
 ul, li{list-style:none;}
-.house_desc{font-size:x-small; color: #999; margin-top: 7px;}
 a{text-decoration:none; color:#999}
 a:hover{text-decoration:none; color:#4da422;}
 .clr{display:block;clear:both;}
@@ -69,8 +68,10 @@ a:hover{text-decoration:none; color:#4da422;}
 .house_d li a{overflow:hidden;}
 .house_list li{}
 .house_title{height: 40px;}
-.srdz_title{height: 60px;color: black; font-size: smaller;}
+.srdz_title{height: 40px;color: black; font-size: smaller;}
 .house_li_info{position:relative;height:90px;overflow:hidden;}
+.house_desc{font-size:x-small; color: #999; margin-top: 7px;}
+
 /*基金移民*/
 .fund_d{background:#fff;padding:10px;}
 /* 最新资讯 */
