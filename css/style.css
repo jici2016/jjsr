@@ -100,8 +100,14 @@ a:hover{text-decoration:none; color:#4da422;}
 @media (max-width:767px){
 .footer_code{clear:both;}
 }
-.footer_contact{padding:0 15px;}
+.footer_contact{padding:0 10px;}
 .footer_d .contact_l{width:56%;}
+.footer_d .contact_lr{width:100%;}
+.footer_d .contact_mail{width:60%;}
+.footer_d .contact_tel{width:40%;}
+
+.contact_tel a{display:block;font-size:18px;color:#0583f2;}
+
 .footer_d .contact_r{width:43%;}
 @media (max-width:370px){
 .footer_contact{padding:0 3px;}
