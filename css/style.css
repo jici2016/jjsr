@@ -23,8 +23,8 @@ a:hover{text-decoration:none; color:#4da422;}
 .hr_1 { height:1px; }
 /* 导航条 */
 .navbar-header{line-height:75px;}
-.logo_title{  display: inline-block; font-size: x-large;color:#e76512}
 .m-navbar{margin-bottom:0;background:rgba(255, 255, 255, 0.2);border:none;}
+.logo_title{  display: inline-block; font-size: x-large;color:#e76512;font-weight: bold;;}
 .m-navbar .navbar-brand{padding-right:2px;height:75px;}
 .m-navbar .navbar-brand img{max-width:100%;max-height:100%;}
 .m-navbar .navbar-nav>li>a{padding:10px 9px;font-size:15px;}
@@ -51,7 +51,8 @@ a:hover{text-decoration:none; color:#4da422;}
 .carousel-inner .item img{width:100%;}
 .carousel-control{opacity:0;}
 /*公共样式*/
-.cl-sm-6{width:50%;float:left;}
+/*.cl-divide{height: 3px; background: red;}*/
+.cl-sm-6{width:50%;float:left; border-top-color: darkgrey; border-top-width: 1px; border-top-style: dotted;}
 .cl-sm-4{width:33.333333%;float:left;}
 .cl-sm-8{width:66.666667%;float:left;}
 .cl-sm-6{width:50%;float:left;}
@@ -69,9 +70,9 @@ a:hover{text-decoration:none; color:#4da422;}
 .house_d li p{position:absolute;top:0;left:0;width:100%;color:#fff; font-size:1.7rem;text-align:center;line-height:80px;}
 .house_d li a{overflow:hidden;}
 .house_list li{}
-.house_title{height: 40px; color:#000}
+.house_title{height: 40px; color:darkblue;text-shadow:1px 1px 5px yellowgreen;}
 .srdz_title{height: 40px;color: black; font-size: smaller;}
-.house_li_info{position:relative;height:90px;overflow:hidden;}
+.house_li_info{position:relative;height:110px;overflow:hidden;}
 .house_desc{font-size:x-small; color: #999; margin-top: 7px;}
 
 /*基金移民*/
@@ -90,13 +91,17 @@ a:hover{text-decoration:none; color:#4da422;}
 .pagination{margin:0 10px;}
 .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus{background:#0583F2;}
 /* 页脚 */
-.footer_d{padding:25px 0;line-height:30px;background:#222;}
+.footer_d{padding:25px 0;line-height:30px;background:lightblue;}
 .footer_d dt{line-height:30px;font-size:16px;font-weight:400;color:#fff;}
 .footer_d dd{float:left;width:50%;line-height:30px;font-size:13px;}
 .footer_code{padding-right:10%;}
+.hour_24{ color: red;}
 .footer_code .pull-left, .footer_code .pull-right{width:45%;text-align:center;}
 .footer_code img{width:130px;height:130px;}
-.footer_code p{color:#999;margin-top:5px;}
+/* 微信二维码边框*/
+.img_wechat{ border:solid 1px gold;}
+/*底部字体颜色*/
+.footer_code p{color:black;margin-top:5px; font-weight: bold;}
 @media (max-width:767px){
 .footer_code{clear:both;}
 }
@@ -112,6 +117,7 @@ a:hover{text-decoration:none; color:#4da422;}
 @media (max-width:370px){
 .footer_contact{padding:0 3px;}
 }
+/*修改foot里面字体颜色*/
 .footer_contact dt{color:#4da422;}
 .footer_contact i{margin-right:5px;}
 .footer_b{padding:10px 0;text-align:center;background:#101010;}
