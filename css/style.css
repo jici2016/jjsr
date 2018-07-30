@@ -69,7 +69,7 @@ a:hover{text-decoration:none; color:#4da422;}
 .house_d li p{position:absolute;top:0;left:0;width:100%;color:#fff; font-size:1.7rem;text-align:center;line-height:80px;}
 .house_d li a{overflow:hidden;}
 .house_list li{}
-.house_title{height: 40px;}
+.house_title{height: 40px; color:#000}
 .srdz_title{height: 40px;color: black; font-size: smaller;}
 .house_li_info{position:relative;height:90px;overflow:hidden;}
 .house_desc{font-size:x-small; color: #999; margin-top: 7px;}
