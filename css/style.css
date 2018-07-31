@@ -97,7 +97,7 @@ a:hover{text-decoration:none; color:#4da422;}
 .footer_code{padding-right:10%;}
 
 
-.addr_detail{font-weight: bold;}
+.addr_detail{font-weight: bold;color:#e76512}
 .hour_24{ color: #4da422; font-weight: bold;}
 .footer_code .pull-left, .footer_code .pull-right{width:45%;text-align:center;}
 .footer_code img{width:130px;height:130px;}
