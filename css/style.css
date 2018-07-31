@@ -95,11 +95,15 @@ a:hover{text-decoration:none; color:#4da422;}
 .footer_d dt{line-height:30px;font-size:16px;font-weight:400;color:#fff;}
 .footer_d dd{float:left;width:50%;line-height:30px;font-size:13px;}
 .footer_code{padding-right:10%;}
-.hour_24{ color: red;}
+
+
+.addr_detail{font-weight: bold;}
+.hour_24{ color: #4da422; font-weight: bold;}
 .footer_code .pull-left, .footer_code .pull-right{width:45%;text-align:center;}
 .footer_code img{width:130px;height:130px;}
 /* 微信二维码边框*/
 .img_wechat{ border:solid 1px gold;}
+.info_wechat{font-weight:bold;line-height: 20px;}
 /*底部字体颜色*/
 .footer_code p{color:black;margin-top:5px; font-weight: bold;}
 @media (max-width:767px){
